@@ -5,23 +5,23 @@
 // it is divisible by both 5 and 3.
 
 function fizzBuzz(str1, str2) {
-  // Todo 1: Combine str1 and str2 and store the result in a variable
+  // TODO 1: Combine str1 and str2 and store the result in a variable
   let str = str1 + str2;
-  // Todo 2: Find the length of the combined string
+  // TODO 2: Find the length of the combined string
   lengthOfString = str.length;
-  // Todo 3: Check if length is divisible by both 5 and 3 and return FizzBuzz
+  // TODO 3: Check if length is divisible by both 5 and 3 and return FizzBuzz
   if (lengthOfString % 3 === 0 && lengthOfString % 5 === 0) {
     return "FizzBuzz";
   }
-  // Todo 4: Check if length is divisible by 3 and return Fizz
+  // TODO 4: Check if length is divisible by 3 and return Fizz
   else if (lengthOfString % 3 === 0) {
     return "Fizz";
   }
-  // Todo 5: Check if length is divisible by 5 and return Buzz
+  // TODO 5: Check if length is divisible by 5 and return Buzz
   else if (lengthOfString % 5 === 0) {
     return "Buzz";
   }
-  // Todo 6: Return the string "Neither divisible by 3 nor 5" is none of the conditions apply
+  // TODO 6: Return the string "Neither divisible by 3 nor 5" is none of the conditions apply
   else {
     return "Neither divisible by 3 nor 5";
   }
